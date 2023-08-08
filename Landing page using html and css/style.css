@@ -1,0 +1,224 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: beige
+}
+
+.navbar{
+    width:100%;
+    height:4rem;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+}
+.number{
+    list-style: none;
+    width: calc(100% - 20% + 30px);
+    text-align: right;
+    margin-right: 10px;
+}
+.logo{
+    width: 30px;
+    margin: 13px; 
+}
+.brandname{
+    font-size: 2vw;
+    width: 20%;
+}
+.topsection{
+    width: 100%;
+    display: flex;
+}
+.left{
+width: 50%;
+margin: 13px;
+display: flex;
+flex-direction: column;
+}
+.topsection button{
+   padding: 10px; 
+   border: none;
+   background-color: bisque;
+   border-radius: 10px;
+   width:100px;
+   cursor: pointer;
+}
+
+.topsection h1{
+    font-size: 3vw;
+}
+.right{
+    width: 50%;
+}
+.right img{
+    width: 35vw;
+}
+.fpart{
+    width: 30%;
+    margin: 13px;
+}
+.spart{
+    width: 30%;
+    margin: 13px;
+}
+.tpart{
+    width: 30%;
+    margin: 13px;
+}
+.fpart img{
+    width: 10vw;
+    margin: auto;
+    display: block;
+}
+.spart img{
+    margin: auto;
+    display: block;
+    width: 10vw;
+}
+.tpart img{
+    margin: auto;
+    display: block;
+    width: 10vw;
+}
+.secondsection{
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+}
+.heading{
+    text-align: center;
+    font-size: 4vw;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+.fpart h2{
+    text-align: center;
+}
+.spart h2{
+    text-align: center;
+}
+.tpart h2{
+    text-align: center;
+}
+.info{
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 1.2rem;
+    /* width: 60%; */
+    /* margin: auto; */
+    /* margin: 3rem; */
+}
+.githublinks{
+    /* width: 100%; */
+    margin: auto;
+    display: block;
+}
+.thirdsection{
+    text-align: center;
+}
+.thirdsection button{
+    padding: 10px; 
+    border: none;
+    background-color: bisque;
+    border-radius: 10px;
+    width:100px;
+    cursor: pointer;
+ }
+ .thirdsection h1{
+    font-size: 3vw;
+    margin: 1.4rem;
+ }
+ footer{
+    text-align: center;
+    font-size: 3vw;
+    background-color: bisque;
+    margin-top: 1.5rem;
+    width: 100%;
+    padding: 0.5rem;
+ }
+ hr {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 8px;
+    background: black;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+@media (max-width:500px) {
+    .brandname{
+        font-size: 4vw;
+    }
+    .topsection button{
+        /* width: 60px;
+        font-size: 6px; */
+        padding: 6px;
+        margin: auto;
+    display: block;
+
+    }
+    .topsection{
+        width: 100%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left h1{
+      font-size: 4.5vw;
+    }
+    .right img{
+        width: 50vw;
+    }
+    .left{
+      width: 90%;
+      
+    }
+    .secondsection{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fpart{
+        width: 70%;
+        margin: 0.5rem;
+       
+    }
+    .spart{
+        margin: 1.5rem;
+        width: 70%;
+       
+    }
+    .tpart{
+        margin: 1.5rem;
+        width: 70%;
+        
+    }
+    .heading{
+        font-size: 6.5vw;
+    }
+    .fpart img{
+        width: 18vw;
+    }
+    .spart img{
+        width: 18vw;
+    }
+    .tpart img{
+        width: 18vw;
+    }
+    .info{
+        font-size: 3.5vw;
+        margin: 1rem;
+    }
+    .thirdsection h1{
+        font-size: 4vw;
+    }
+    footer{
+        font-size: 4vw;
+    }
+}
