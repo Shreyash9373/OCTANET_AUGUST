@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn&family=Piazzolla:ital,wght@0,400;0,900;1,300&family=Roboto:wght@300&display=swap');
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding: 0;
+}
+.left img{
+    width: 32px;
+    height: 30px;
+}
+header{
+    position:sticky;
+    top:0;
+    background: white;
+    height: 66px;
+    box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.75);
+}
+.container{
+    padding: 0 10vw ;
+    background-color: #ebe6e6;
+
+}
+nav{
+    font-size: 11px;
+    padding-top: 14px;
+}
+nav ul li{
+    list-style: none;
+    padding:0 12px ;
+}
+.section1{
+    background-color: #ebe6e6;
+      
+}
+.search{
+    width:34vw;
+    padding: 7px 17px;
+    border: 0.5px slid grey;
+    background:#f1f1f1;
+    border-radius:5px
+}
+.homeImg{
+    width: 80vw;
+    margin: 12px 0;
+}
+.itemImg{
+    width: 14vw;
+    margin: 8px 12px;
+}
+.imageHeader{
+    width: 80vw;
+    display: block;
+}
+footer{
+    padding:23px ;
+    text-align: center;
+    box-shadow: rgb(0 0 0/24%) 0px 3px 8px;
+}
+.rightbox{
+    display: flex;
+    margin: 12px;
+    font-size: 13px;
+  }
+  .containerHeader{
+    padding: 0 10vw;
+    height: 76px;
+
+  }
+@media (max-width:550px) {
+    nav ul li {
+        list-style: none;
+        padding: 0 4px;
+        font-size: 10px;
+    }
+    .containerHeader{
+        padding: 0 2vw;
+        height: 140px;
+
+    }
+  header{
+    height: 122px;
+  }  
+  nav{
+    flex-direction: column;
+    align-items: center;
+  }
+  .right{
+    flex-direction: column;
+  }
+  .rightbox{
+    display: flex;
+    margin: 12px;
+  }
+}
